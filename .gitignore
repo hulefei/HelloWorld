@@ -1,14 +1,14 @@
 
 .metadata/*
 
-JavaDemo/bin/*
-
-JavaDemo/.DS_Store
-
-JavaDemo/src/.DS_Store
-
-JavaDemo/src/com/.DS_Store
-
-JavaDemo/src/com/hulefei/.DS_Store
+*.DS_Store
 
 .DS_Store
+
+*.xcworkspacedata
+
+*.xcuserstate
+
+*.xcscheme
+
+HelloCocos2dJSBinding/Cocos2DSimpleGame/Platform/iOS/Cocos2DSimpleGame/Cocos2DSimpleGame.xcodeproj/xcuserdata/hanson.xcuserdatad/xcschemes/xcschememanagement.plist

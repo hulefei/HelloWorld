@@ -17,10 +17,14 @@ var MainLayer = cc.LayerColor.extend({
         var player = cc.Sprite.create(s_player);
  
         // 6
+        //player.setPosition(player.getContentSize().width / 2, winSize.height / 2);
         player.setPosition(player.getContentSize().width / 2, winSize.height / 2);
  
         // 7
         this.addChild(player);
+        
+        var actionMove = cc.MoveTo.create(3, cc.p(winSize.width - player.getContentSize().width / 2, winSize.height / 2)); // 3
+        player.runAction(actionMove);
     }
  
 });
