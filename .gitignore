@@ -12,3 +12,5 @@
 *.xcscheme
 
 HelloCocos2dJSBinding/Cocos2DSimpleGame/Platform/iOS/Cocos2DSimpleGame/Cocos2DSimpleGame.xcodeproj/xcuserdata/hanson.xcuserdatad/xcschemes/xcschememanagement.plist
+
+HelloCocos2dJSBinding/Cocos2DSimpleGame/Platform/OSX/Cocos2DSimpleGame/Cocos2DSimpleGame.xcodeproj/xcuserdata/hanson.xcuserdatad/xcschemes/xcschememanagement.plist

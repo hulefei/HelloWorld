@@ -156,6 +156,7 @@ centerPos = cc.p( winSize.width/2, winSize.height/2 );
 function run()
 {
     director.runWithScene( MainLayer.scene() );
+//    log("RUN ING");
 }
 
 run();
