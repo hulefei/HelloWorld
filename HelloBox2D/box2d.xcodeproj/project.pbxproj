@@ -186,7 +186,8 @@
 		C006225E16E8D0B1000A3724 /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C006225D16E8D0B1000A3724 /* IntroLayer.mm */; };
 		C006226116E8D0B1000A3724 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = C006226016E8D0B1000A3724 /* GLES-Render.mm */; };
 		C006226316E8D0B1000A3724 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C006226216E8D0B1000A3724 /* blocks.png */; };
-		C006226A16E8D6D6000A3724 /* Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C006226916E8D6D6000A3724 /* Ball.jpg */; };
+		C051DFD516EC92A600DDC64C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C051DFD316EC92A600DDC64C /* ball.png */; };
+		C051DFD616EC92A600DDC64C /* ball-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = C051DFD416EC92A600DDC64C /* ball-hd.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -565,7 +566,8 @@
 		C006225F16E8D0B1000A3724 /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		C006226016E8D0B1000A3724 /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		C006226216E8D0B1000A3724 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
-		C006226916E8D6D6000A3724 /* Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ball.jpg; path = Resources/Ball.jpg; sourceTree = "<group>"; };
+		C051DFD316EC92A600DDC64C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = Resources/ball.png; sourceTree = "<group>"; };
+		C051DFD416EC92A600DDC64C /* ball-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ball-hd.png"; path = "Resources/ball-hd.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -642,7 +644,8 @@
 		C006203616E8D0AC000A3724 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C006226916E8D6D6000A3724 /* Ball.jpg */,
+				C051DFD316EC92A600DDC64C /* ball.png */,
+				C051DFD416EC92A600DDC64C /* ball-hd.png */,
 				C006203716E8D0AC000A3724 /* Default.png */,
 				C006203916E8D0AC000A3724 /* Default@2x.png */,
 				C006203B16E8D0AC000A3724 /* Default-568h@2x.png */,
@@ -1242,7 +1245,8 @@
 				C006204D16E8D0AD000A3724 /* iTunesArtwork in Resources */,
 				C00621A316E8D0B0000A3724 /* ChangeLog in Resources */,
 				C006226316E8D0B1000A3724 /* blocks.png in Resources */,
-				C006226A16E8D6D6000A3724 /* Ball.jpg in Resources */,
+				C051DFD516EC92A600DDC64C /* ball.png in Resources */,
+				C051DFD616EC92A600DDC64C /* ball-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1527,6 +1531,7 @@
 				C006226816E8D0B1000A3724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
