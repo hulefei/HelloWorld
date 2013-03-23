@@ -164,7 +164,7 @@
         md.bodyB = _paddleBody;
         md.target = locationWorld;
         md.collideConnected = true;
-        md.maxForce = 1000.0f * _paddleBody->GetMass();
+        md.maxForce = 100.0f * _paddleBody->GetMass();
         
         _mouseJoint = (b2MouseJoint *)_world->CreateJoint(&md);
         _paddleBody->SetAwake(true);
