@@ -24,8 +24,13 @@ Hello Cocos2d breakout
 Hello Template
 -----------------------------
   * 该项目使用cocos2d 集成arc进行搭建，方便以后建demo时使用
+  
+Hello CoreData
+-----------------------------
+参考内容:[Core Data入门][4]
 
 [1]:http://www.raywenderlich.com/32970/how-to-make-a-cross-platform-game-with-cocos2d-javascript-tutorial-getting-started?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+RayWenderlich+%28Ray+Wenderlich+%7C+iPhone+Developer+and+Gamer%29
 [2]:http://www.raywenderlich.com/28602/intro-to-box2d-with-cocos2d-2-x-tutorial-bouncing-balls
 [3]:http://www.raywenderlich.com/28604/how-to-create-a-breakout-game-with-box2d-and-cocos2d-2-x-tutorial-part-1
+[4]:http://blog.csdn.net/q199109106q/article/details/8563438
 
