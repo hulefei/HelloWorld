@@ -20,24 +20,7 @@
 		C0EEE6DA17B7701F001A3F44 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EEE6D817B7701F001A3F44 /* CDViewController.xib */; };
 		C0EEE6E217B771D5001A3F44 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0EEE6E017B771D5001A3F44 /* Model.xcdatamodeld */; };
 		C0EEE6E417B7727A001A3F44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEE6E317B7727A001A3F44 /* CoreData.framework */; };
-		C0EEE6FB17B776A5001A3F44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEE6BF17B7701F001A3F44 /* Foundation.framework */; };
-		C0EEE70017B776A5001A3F44 /* MyCoreData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0EEE6FF17B776A5001A3F44 /* MyCoreData.h */; };
-		C0EEE70217B776A5001A3F44 /* MyCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EEE70117B776A5001A3F44 /* MyCoreData.m */; };
-		C0EEE70617B776CE001A3F44 /* libMyCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEE6FA17B776A5001A3F44 /* libMyCoreData.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		C0EEE6F817B776A5001A3F44 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				C0EEE70017B776A5001A3F44 /* MyCoreData.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C0EEE6BA17B7701F001A3F44 /* CoreDataLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,10 +41,6 @@
 		C0EEE6D917B7701F001A3F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
 		C0EEE6E117B771D5001A3F44 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C0EEE6E317B7727A001A3F44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C0EEE6FA17B776A5001A3F44 /* libMyCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyCoreData.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0EEE6FE17B776A5001A3F44 /* MyCoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCoreData-Prefix.pch"; sourceTree = "<group>"; };
-		C0EEE6FF17B776A5001A3F44 /* MyCoreData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCoreData.h; sourceTree = "<group>"; };
-		C0EEE70117B776A5001A3F44 /* MyCoreData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCoreData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,19 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EEE70617B776CE001A3F44 /* libMyCoreData.a in Frameworks */,
 				C0EEE6E417B7727A001A3F44 /* CoreData.framework in Frameworks */,
 				C0EEE6BE17B7701F001A3F44 /* UIKit.framework in Frameworks */,
 				C0EEE6C017B7701F001A3F44 /* Foundation.framework in Frameworks */,
 				C0EEE6C217B7701F001A3F44 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0EEE6F717B776A5001A3F44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0EEE6FB17B776A5001A3F44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +63,6 @@
 			children = (
 				C0EEE6E317B7727A001A3F44 /* CoreData.framework */,
 				C0EEE6C317B7701F001A3F44 /* CoreDataLibraryDemo */,
-				C0EEE6FC17B776A5001A3F44 /* MyCoreData */,
 				C0EEE6BC17B7701F001A3F44 /* Frameworks */,
 				C0EEE6BB17B7701F001A3F44 /* Products */,
 			);
@@ -103,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				C0EEE6BA17B7701F001A3F44 /* CoreDataLibraryDemo.app */,
-				C0EEE6FA17B776A5001A3F44 /* libMyCoreData.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,24 +114,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C0EEE6FC17B776A5001A3F44 /* MyCoreData */ = {
-			isa = PBXGroup;
-			children = (
-				C0EEE6FF17B776A5001A3F44 /* MyCoreData.h */,
-				C0EEE70117B776A5001A3F44 /* MyCoreData.m */,
-				C0EEE6FD17B776A5001A3F44 /* Supporting Files */,
-			);
-			path = MyCoreData;
-			sourceTree = "<group>";
-		};
-		C0EEE6FD17B776A5001A3F44 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0EEE6FE17B776A5001A3F44 /* MyCoreData-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,23 +133,6 @@
 			productName = CoreDataLibraryDemo;
 			productReference = C0EEE6BA17B7701F001A3F44 /* CoreDataLibraryDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C0EEE6F917B776A5001A3F44 /* MyCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C0EEE70317B776A5001A3F44 /* Build configuration list for PBXNativeTarget "MyCoreData" */;
-			buildPhases = (
-				C0EEE6F617B776A5001A3F44 /* Sources */,
-				C0EEE6F717B776A5001A3F44 /* Frameworks */,
-				C0EEE6F817B776A5001A3F44 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyCoreData;
-			productName = MyCoreData;
-			productReference = C0EEE6FA17B776A5001A3F44 /* libMyCoreData.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				C0EEE6B917B7701F001A3F44 /* CoreDataLibraryDemo */,
-				C0EEE6F917B776A5001A3F44 /* MyCoreData */,
 			);
 		};
 /* End PBXProject section */
@@ -253,14 +185,6 @@
 				C0EEE6CE17B7701F001A3F44 /* CDAppDelegate.m in Sources */,
 				C0EEE6D717B7701F001A3F44 /* CDViewController.m in Sources */,
 				C0EEE6E217B771D5001A3F44 /* Model.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0EEE6F617B776A5001A3F44 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0EEE70217B776A5001A3F44 /* MyCoreData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,30 +288,6 @@
 			};
 			name = Release;
 		};
-		C0EEE70417B776A5001A3F44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/MyCoreData.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyCoreData/MyCoreData-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C0EEE70517B776A5001A3F44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/MyCoreData.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyCoreData/MyCoreData-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,14 +305,6 @@
 			buildConfigurations = (
 				C0EEE6DE17B7701F001A3F44 /* Debug */,
 				C0EEE6DF17B7701F001A3F44 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		C0EEE70317B776A5001A3F44 /* Build configuration list for PBXNativeTarget "MyCoreData" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0EEE70417B776A5001A3F44 /* Debug */,
-				C0EEE70517B776A5001A3F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

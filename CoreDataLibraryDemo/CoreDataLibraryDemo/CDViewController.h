@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "MyCoreData.h"
 
 @interface CDViewController : UIViewController {
     NSManagedObjectModel *_model;
     NSPersistentStoreCoordinator *_psc;
     NSManagedObjectContext *_context;
+    
+    MyCoreData *_myCoreData;
 }
 
 @property (weak, nonatomic) IBOutlet UIButton *btn1;
