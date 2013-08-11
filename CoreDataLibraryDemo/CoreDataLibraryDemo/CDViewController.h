@@ -10,6 +10,7 @@
 #import <CoreData/CoreData.h>
 #import "MyCoreData.h"
 
+
 @interface CDViewController : UIViewController {
     NSManagedObjectModel *_model;
     NSPersistentStoreCoordinator *_psc;

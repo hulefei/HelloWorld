@@ -20,7 +20,18 @@
 		C0EEE6DA17B7701F001A3F44 /* CDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EEE6D817B7701F001A3F44 /* CDViewController.xib */; };
 		C0EEE6E217B771D5001A3F44 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0EEE6E017B771D5001A3F44 /* Model.xcdatamodeld */; };
 		C0EEE6E417B7727A001A3F44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEE6E317B7727A001A3F44 /* CoreData.framework */; };
+		C0EEE76117B78BAA001A3F44 /* libMyCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EEE76017B78B3E001A3F44 /* libMyCoreData.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EEE75F17B78B3E001A3F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EEE75B17B78B3E001A3F44 /* MyCoreData.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C0EEE74A17B78B3E001A3F44;
+			remoteInfo = MyCoreData;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C0EEE6BA17B7701F001A3F44 /* CoreDataLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +52,7 @@
 		C0EEE6D917B7701F001A3F44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController.xib; sourceTree = "<group>"; };
 		C0EEE6E117B771D5001A3F44 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C0EEE6E317B7727A001A3F44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0EEE75B17B78B3E001A3F44 /* MyCoreData.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyCoreData.xcodeproj; path = MyCoreData/MyCoreData.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EEE76117B78BAA001A3F44 /* libMyCoreData.a in Frameworks */,
 				C0EEE6E417B7727A001A3F44 /* CoreData.framework in Frameworks */,
 				C0EEE6BE17B7701F001A3F44 /* UIKit.framework in Frameworks */,
 				C0EEE6C017B7701F001A3F44 /* Foundation.framework in Frameworks */,
@@ -79,6 +92,7 @@
 		C0EEE6BC17B7701F001A3F44 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0EEE75B17B78B3E001A3F44 /* MyCoreData.xcodeproj */,
 				C0EEE6BD17B7701F001A3F44 /* UIKit.framework */,
 				C0EEE6BF17B7701F001A3F44 /* Foundation.framework */,
 				C0EEE6C117B7701F001A3F44 /* CoreGraphics.framework */,
@@ -112,6 +126,14 @@
 				C0EEE6E017B771D5001A3F44 /* Model.xcdatamodeld */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0EEE75C17B78B3E001A3F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0EEE76017B78B3E001A3F44 /* libMyCoreData.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,12 +176,28 @@
 			mainGroup = C0EEE6B117B7701F001A3F44;
 			productRefGroup = C0EEE6BB17B7701F001A3F44 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C0EEE75C17B78B3E001A3F44 /* Products */;
+					ProjectRef = C0EEE75B17B78B3E001A3F44 /* MyCoreData.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C0EEE6B917B7701F001A3F44 /* CoreDataLibraryDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C0EEE76017B78B3E001A3F44 /* libMyCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMyCoreData.a;
+			remoteRef = C0EEE75F17B78B3E001A3F44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C0EEE6B817B7701F001A3F44 /* Resources */ = {
@@ -271,6 +309,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataLibraryDemo/CoreDataLibraryDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INFOPLIST_FILE = "CoreDataLibraryDemo/CoreDataLibraryDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -282,6 +321,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataLibraryDemo/CoreDataLibraryDemo-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/**";
 				INFOPLIST_FILE = "CoreDataLibraryDemo/CoreDataLibraryDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
