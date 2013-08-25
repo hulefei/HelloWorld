@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05B7BE617B7EAC90052321F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C05B7BE417B7EAC90052321F /* Model.xcdatamodeld */; };
 		C05E05AA17ADFB130009C2C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05E05A917ADFB130009C2C8 /* UIKit.framework */; };
 		C05E05AC17ADFB130009C2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05E05AB17ADFB130009C2C8 /* Foundation.framework */; };
 		C05E05AE17ADFB130009C2C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05E05AD17ADFB130009C2C8 /* CoreGraphics.framework */; };
@@ -19,13 +20,13 @@
 		C05E05C317ADFB130009C2C8 /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E05C217ADFB130009C2C8 /* CDViewController.m */; };
 		C05E05C617ADFB130009C2C8 /* CDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05E05C417ADFB130009C2C8 /* CDViewController_iPhone.xib */; };
 		C05E05C917ADFB130009C2C8 /* CDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C05E05C717ADFB130009C2C8 /* CDViewController_iPad.xib */; };
-		C05E05D117ADFB310009C2C8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C05E05CF17ADFB310009C2C8 /* Model.xcdatamodeld */; };
 		C05E05D317AE134A0009C2C8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05E05D217AE134A0009C2C8 /* CoreData.framework */; };
 		C073C33617AEBFD200E88552 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = C073C33517AEBFD200E88552 /* Card.m */; };
 		C073C33917AEBFED00E88552 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C073C33817AEBFED00E88552 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05B7BE517B7EAC90052321F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C05E05A617ADFB130009C2C8 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C05E05A917ADFB130009C2C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C05E05AB17ADFB130009C2C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,7 +44,6 @@
 		C05E05C217ADFB130009C2C8 /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
 		C05E05C517ADFB130009C2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPhone.xib; sourceTree = "<group>"; };
 		C05E05C817ADFB130009C2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CDViewController_iPad.xib; sourceTree = "<group>"; };
-		C05E05D017ADFB310009C2C8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		C05E05D217AE134A0009C2C8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C073C33417AEBFD200E88552 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		C073C33517AEBFD200E88552 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		C05E059D17ADFB130009C2C8 = {
 			isa = PBXGroup;
 			children = (
+				C05B7BE417B7EAC90052321F /* Model.xcdatamodeld */,
 				C05E05D217AE134A0009C2C8 /* CoreData.framework */,
 				C05E05AF17ADFB130009C2C8 /* CoreDataDemo */,
 				C05E05A817ADFB130009C2C8 /* Frameworks */,
@@ -104,7 +105,6 @@
 				C05E05C417ADFB130009C2C8 /* CDViewController_iPhone.xib */,
 				C05E05C717ADFB130009C2C8 /* CDViewController_iPad.xib */,
 				C05E05B017ADFB130009C2C8 /* Supporting Files */,
-				C05E05CF17ADFB310009C2C8 /* Model.xcdatamodeld */,
 				C073C33417AEBFD200E88552 /* Card.h */,
 				C073C33517AEBFD200E88552 /* Card.m */,
 				C073C33717AEBFED00E88552 /* Person.h */,
@@ -198,9 +198,9 @@
 				C05E05B617ADFB130009C2C8 /* main.m in Sources */,
 				C05E05BA17ADFB130009C2C8 /* CDAppDelegate.m in Sources */,
 				C05E05C317ADFB130009C2C8 /* CDViewController.m in Sources */,
-				C05E05D117ADFB310009C2C8 /* Model.xcdatamodeld in Sources */,
 				C073C33617AEBFD200E88552 /* Card.m in Sources */,
 				C073C33917AEBFED00E88552 /* Person.m in Sources */,
+				C05B7BE617B7EAC90052321F /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,13 +338,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C05E05CF17ADFB310009C2C8 /* Model.xcdatamodeld */ = {
+		C05B7BE417B7EAC90052321F /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C05E05D017ADFB310009C2C8 /* Model.xcdatamodel */,
+				C05B7BE517B7EAC90052321F /* Model.xcdatamodel */,
 			);
-			currentVersion = C05E05D017ADFB310009C2C8 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			currentVersion = C05B7BE517B7EAC90052321F /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = CoreDataDemo/Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

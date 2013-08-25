@@ -7,12 +7,29 @@
 //
 
 #include <iostream>
+#include <cstdlib>
+using std::cout;
+using std::endl;
 
-int main(int argc, const char * argv[])
-{
+void test1();
+void test2();
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[]) {
+//    test1();
+    test2();
     return 0;
 }
+
+void test1() {
+    double d = 1.332;
+    int i = static_cast<int>(d);
+    cout << i;
+}
+void test2() {
+    cout << "int size :" << sizeof(int) << endl;
+    cout << "double size :" << sizeof(double) << endl;
+    cout << "float size :" << sizeof(float) << endl;
+    cout << "long size :" << sizeof(long) << endl;
+}
+void 
 
