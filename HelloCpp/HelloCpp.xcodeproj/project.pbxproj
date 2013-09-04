@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C082BF3B17D63B38009FBE81 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C082BF3A17D63B38009FBE81 /* Box.cpp */; };
 		C0EFC0C5172823F600A52550 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0EFC0C4172823F600A52550 /* main.cpp */; };
 		C0EFC0C7172823F600A52550 /* HelloCpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0EFC0C6172823F600A52550 /* HelloCpp.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C082BF3917D63AE7009FBE81 /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		C082BF3A17D63B38009FBE81 /* Box.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Box.cpp; sourceTree = "<group>"; };
 		C0EFC0C1172823F600A52550 /* HelloCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EFC0C4172823F600A52550 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0EFC0C6172823F600A52550 /* HelloCpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloCpp.1; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 			children = (
 				C0EFC0C4172823F600A52550 /* main.cpp */,
 				C0EFC0C6172823F600A52550 /* HelloCpp.1 */,
+				C082BF3917D63AE7009FBE81 /* Box.h */,
+				C082BF3A17D63B38009FBE81 /* Box.cpp */,
 			);
 			path = HelloCpp;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EFC0C5172823F600A52550 /* main.cpp in Sources */,
+				C082BF3B17D63B38009FBE81 /* Box.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 				C0EFC0CC172823F600A52550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
