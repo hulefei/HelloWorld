@@ -16,8 +16,16 @@ Box::Box(double lengthValue, double widthValue, double heightValue) {
     height = heightValue;
 }
 
-double Box::volume() {
+double Box::volume()const {
     return length * width * height;
 }
 
+int Box::compareVolume(const Box &otherBox) {
+    double vol1 = this->volume();
+    double vol2 = otherBox.volume();
+    return vol1 > vol2 ? 1 : (vol1 < vol2 ? -1 : 0);
+}
 
+Box::~Box() {
+    std::cout << "~Box destructor" << std::endl;
+}

@@ -12,14 +12,19 @@
 class Box {
 public:
     Box(double lengthValue=1.0, double widthValue=1.0, double heightValue=1.0);
-    double volume();
+    ~Box();
+    
+    double volume() const;
+    int compareVolume(const Box &otherBox);
+    
     friend double boxSurface(const Box &theBox);
     
 private:
     double length;
     double width;
     double height;
-    
 };
+
+
 
 #endif
