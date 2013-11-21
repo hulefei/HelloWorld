@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C042914C183E5A4900D400B6 /* CLuaFn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C042914A183E5A4900D400B6 /* CLuaFn.cpp */; };
 		C053CEB3183DB7A10010A0EA /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C053CEAB183DB7A10010A0EA /* liblua.a */; };
 		C0F4AC87180E2EA30034EF9E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0F4AC86180E2EA30034EF9E /* main.cpp */; };
 		C0F4AC89180E2EA30034EF9E /* HelloLua.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0F4AC88180E2EA30034EF9E /* HelloLua.1 */; };
@@ -26,6 +27,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C0429149183E5A2000D400B6 /* Sample.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sample.lua; sourceTree = "<group>"; };
+		C042914A183E5A4900D400B6 /* CLuaFn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLuaFn.cpp; sourceTree = "<group>"; };
+		C042914B183E5A4900D400B6 /* CLuaFn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLuaFn.h; sourceTree = "<group>"; };
 		C053CEAB183DB7A10010A0EA /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblua.a; sourceTree = "<group>"; };
 		C053CEAE183DB7A10010A0EA /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
 		C053CEAF183DB7A10010A0EA /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
@@ -102,6 +106,9 @@
 				C0F4AC86180E2EA30034EF9E /* main.cpp */,
 				C0F4AC88180E2EA30034EF9E /* HelloLua.1 */,
 				C0F4AC8F180E2ED40034EF9E /* HelloLua.lua */,
+				C0429149183E5A2000D400B6 /* Sample.lua */,
+				C042914A183E5A4900D400B6 /* CLuaFn.cpp */,
+				C042914B183E5A4900D400B6 /* CLuaFn.h */,
 			);
 			path = HelloLua;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C042914C183E5A4900D400B6 /* CLuaFn.cpp in Sources */,
 				C0F4AC87180E2EA30034EF9E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
