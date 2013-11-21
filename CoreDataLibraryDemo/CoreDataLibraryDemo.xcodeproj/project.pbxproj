@@ -347,6 +347,7 @@
 				C0EEE6DF17B7701F001A3F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
