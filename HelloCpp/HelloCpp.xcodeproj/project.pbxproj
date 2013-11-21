@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0467F4E1809458600446ED9 /* mainVirtualDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0467F4C1809458600446ED9 /* mainVirtualDemo.cpp */; };
+		C0467F51180945C200446ED9 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0467F4F180945C200446ED9 /* Circle.cpp */; };
+		C066BDD6180BCD36007343A4 /* mainLuaDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C066BDD4180BCD36007343A4 /* mainLuaDemo.cpp */; };
+		C066BDDC180BEADF007343A4 /* SubCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C066BDDA180BEADF007343A4 /* SubCircle.cpp */; };
 		C085D5A517F1734000596B63 /* Chapter7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C085D5A417F1734000596B63 /* Chapter7.cpp */; };
+		C0A257101807C1CB00021760 /* mainStringDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A2570E1807C1CB00021760 /* mainStringDemo.cpp */; };
 		C0EFC0C5172823F600A52550 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0EFC0C4172823F600A52550 /* main.cpp */; };
 		C0EFC0C7172823F600A52550 /* HelloCpp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0EFC0C6172823F600A52550 /* HelloCpp.1 */; };
 /* End PBXBuildFile section */
@@ -26,8 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C0467F4A180943C900446ED9 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		C0467F4C1809458600446ED9 /* mainVirtualDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainVirtualDemo.cpp; sourceTree = "<group>"; };
+		C0467F4F180945C200446ED9 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		C0467F50180945C200446ED9 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C066BDD4180BCD36007343A4 /* mainLuaDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainLuaDemo.cpp; sourceTree = "<group>"; };
+		C066BDDA180BEADF007343A4 /* SubCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubCircle.cpp; sourceTree = "<group>"; };
+		C066BDDB180BEADF007343A4 /* SubCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCircle.h; sourceTree = "<group>"; };
 		C085D5A217F1732000596B63 /* Chapter7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chapter7.h; sourceTree = "<group>"; };
 		C085D5A417F1734000596B63 /* Chapter7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chapter7.cpp; sourceTree = "<group>"; };
+		C0A2570E1807C1CB00021760 /* mainStringDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainStringDemo.cpp; sourceTree = "<group>"; };
 		C0EFC0C1172823F600A52550 /* HelloCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloCpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0EFC0C4172823F600A52550 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0EFC0C6172823F600A52550 /* HelloCpp.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloCpp.1; sourceTree = "<group>"; };
@@ -44,11 +57,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0072A841803B08F00496240 /* chapter18 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = chapter18;
+			sourceTree = "<group>";
+		};
+		C0072A94180406BF00496240 /* chapter20 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = chapter20;
+			sourceTree = "<group>";
+		};
+		C02BAD0317F7D401005EE9BE /* chapter16 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = chapter16;
+			sourceTree = "<group>";
+		};
+		C0398C1F17F96C29008203D7 /* chapter17 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = chapter17;
+			sourceTree = "<group>";
+		};
+		C0467F4818093EAA00446ED9 /* virtualDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0467F4A180943C900446ED9 /* Shape.h */,
+				C0467F4C1809458600446ED9 /* mainVirtualDemo.cpp */,
+				C0467F4F180945C200446ED9 /* Circle.cpp */,
+				C0467F50180945C200446ED9 /* Circle.h */,
+				C066BDDA180BEADF007343A4 /* SubCircle.cpp */,
+				C066BDDB180BEADF007343A4 /* SubCircle.h */,
+			);
+			name = virtualDemo;
+			sourceTree = "<group>";
+		};
 		C048534C17F2CB8C008FEB22 /* chapter12 */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = chapter12;
+			sourceTree = "<group>";
+		};
+		C066BDD3180BCD14007343A4 /* luaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C066BDD4180BCD36007343A4 /* mainLuaDemo.cpp */,
+			);
+			name = luaDemo;
 			sourceTree = "<group>";
 		};
 		C085D5A317F1732A00596B63 /* chapter7 */ = {
@@ -58,6 +120,14 @@
 				C085D5A417F1734000596B63 /* Chapter7.cpp */,
 			);
 			name = chapter7;
+			sourceTree = "<group>";
+		};
+		C0A2570B1807C14D00021760 /* stringDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0A2570E1807C1CB00021760 /* mainStringDemo.cpp */,
+			);
+			name = stringDemo;
 			sourceTree = "<group>";
 		};
 		C0BBB48817F5648D00DE5F78 /* chapter15 */ = {
@@ -86,6 +156,13 @@
 		C0EFC0C3172823F600A52550 /* HelloCpp */ = {
 			isa = PBXGroup;
 			children = (
+				C066BDD3180BCD14007343A4 /* luaDemo */,
+				C0467F4818093EAA00446ED9 /* virtualDemo */,
+				C0A2570B1807C14D00021760 /* stringDemo */,
+				C0072A94180406BF00496240 /* chapter20 */,
+				C0072A841803B08F00496240 /* chapter18 */,
+				C0398C1F17F96C29008203D7 /* chapter17 */,
+				C02BAD0317F7D401005EE9BE /* chapter16 */,
 				C0BBB48817F5648D00DE5F78 /* chapter15 */,
 				C0F2D07B17F40E7C00365329 /* chapter14 */,
 				C0F2D07217F3DDED00365329 /* chapter13 */,
@@ -137,7 +214,7 @@
 		C0EFC0B9172823F600A52550 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Hanson;
 			};
 			buildConfigurationList = C0EFC0BC172823F600A52550 /* Build configuration list for PBXProject "HelloCpp" */;
@@ -162,7 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A257101807C1CB00021760 /* mainStringDemo.cpp in Sources */,
+				C0467F51180945C200446ED9 /* Circle.cpp in Sources */,
+				C066BDDC180BEADF007343A4 /* SubCircle.cpp in Sources */,
+				C0467F4E1809458600446ED9 /* mainVirtualDemo.cpp in Sources */,
 				C0EFC0C5172823F600A52550 /* main.cpp in Sources */,
+				C066BDD6180BCD36007343A4 /* mainLuaDemo.cpp in Sources */,
 				C085D5A517F1734000596B63 /* Chapter7.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,7 +256,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -206,7 +287,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
