@@ -22,6 +22,7 @@ int main(int argc, const char * argv[]) {
         }
     }
     lua_close(L);
+    
     return 0;
 }
 

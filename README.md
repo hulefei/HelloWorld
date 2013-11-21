@@ -36,7 +36,7 @@ Hello Lua
 -----------------------------
   * 学习lua与c之间通信
   
-  Hello Template
+Hello Template
 -----------------------------
   * 该项目使用cocos2d 集成arc进行搭建，方便以后建demo时使用
   
