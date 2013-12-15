@@ -19,6 +19,9 @@
 		C0CA1486185019830074A610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CA146E185019820074A610 /* UIKit.framework */; };
 		C0CA148E185019830074A610 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0CA148C185019830074A610 /* InfoPlist.strings */; };
 		C0CA1490185019830074A610 /* HelloOpenglesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CA148F185019830074A610 /* HelloOpenglesTests.m */; };
+		C0CA149A18501AAD0074A610 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CA149918501AAD0074A610 /* QuartzCore.framework */; };
+		C0CA149C18501AB50074A610 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CA149B18501AB50074A610 /* OpenGLES.framework */; };
+		C0CA149E18501ABD0074A610 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CA149D18501ABD0074A610 /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		C0CA148B185019830074A610 /* HelloOpenglesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloOpenglesTests-Info.plist"; sourceTree = "<group>"; };
 		C0CA148D185019830074A610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0CA148F185019830074A610 /* HelloOpenglesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloOpenglesTests.m; sourceTree = "<group>"; };
+		C0CA149918501AAD0074A610 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0CA149B18501AB50074A610 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C0CA149D18501ABD0074A610 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CA149E18501ABD0074A610 /* GLKit.framework in Frameworks */,
+				C0CA149C18501AB50074A610 /* OpenGLES.framework in Frameworks */,
+				C0CA149A18501AAD0074A610 /* QuartzCore.framework in Frameworks */,
 				C0CA146D185019820074A610 /* CoreGraphics.framework in Frameworks */,
 				C0CA146F185019820074A610 /* UIKit.framework in Frameworks */,
 				C0CA146B185019820074A610 /* Foundation.framework in Frameworks */,
@@ -96,6 +105,9 @@
 		C0CA1469185019820074A610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0CA149D18501ABD0074A610 /* GLKit.framework */,
+				C0CA149B18501AB50074A610 /* OpenGLES.framework */,
+				C0CA149918501AAD0074A610 /* QuartzCore.framework */,
 				C0CA146A185019820074A610 /* Foundation.framework */,
 				C0CA146C185019820074A610 /* CoreGraphics.framework */,
 				C0CA146E185019820074A610 /* UIKit.framework */,
