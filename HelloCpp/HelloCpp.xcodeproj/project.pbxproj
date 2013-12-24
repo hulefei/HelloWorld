@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C0467F4E1809458600446ED9 /* mainVirtualDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0467F4C1809458600446ED9 /* mainVirtualDemo.cpp */; };
 		C0467F51180945C200446ED9 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0467F4F180945C200446ED9 /* Circle.cpp */; };
+		C0566F59185D9F6900915F12 /* mainPointDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0566F57185D9F6900915F12 /* mainPointDemo.cpp */; };
 		C066BDD6180BCD36007343A4 /* mainLuaDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C066BDD4180BCD36007343A4 /* mainLuaDemo.cpp */; };
 		C066BDDC180BEADF007343A4 /* SubCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C066BDDA180BEADF007343A4 /* SubCircle.cpp */; };
 		C085D5A517F1734000596B63 /* Chapter7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C085D5A417F1734000596B63 /* Chapter7.cpp */; };
@@ -35,6 +36,7 @@
 		C0467F4C1809458600446ED9 /* mainVirtualDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainVirtualDemo.cpp; sourceTree = "<group>"; };
 		C0467F4F180945C200446ED9 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 		C0467F50180945C200446ED9 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C0566F57185D9F6900915F12 /* mainPointDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainPointDemo.cpp; sourceTree = "<group>"; };
 		C066BDD4180BCD36007343A4 /* mainLuaDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mainLuaDemo.cpp; sourceTree = "<group>"; };
 		C066BDDA180BEADF007343A4 /* SubCircle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubCircle.cpp; sourceTree = "<group>"; };
 		C066BDDB180BEADF007343A4 /* SubCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCircle.h; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 			name = chapter12;
 			sourceTree = "<group>";
 		};
+		C0566F55185D9F1700915F12 /* pointDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0566F57185D9F6900915F12 /* mainPointDemo.cpp */,
+			);
+			name = pointDemo;
+			sourceTree = "<group>";
+		};
 		C066BDD3180BCD14007343A4 /* luaDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 		C0EFC0C3172823F600A52550 /* HelloCpp */ = {
 			isa = PBXGroup;
 			children = (
+				C0566F55185D9F1700915F12 /* pointDemo */,
 				C066BDD3180BCD14007343A4 /* luaDemo */,
 				C0467F4818093EAA00446ED9 /* virtualDemo */,
 				C0A2570B1807C14D00021760 /* stringDemo */,
@@ -245,6 +256,7 @@
 				C0467F4E1809458600446ED9 /* mainVirtualDemo.cpp in Sources */,
 				C0EFC0C5172823F600A52550 /* main.cpp in Sources */,
 				C066BDD6180BCD36007343A4 /* mainLuaDemo.cpp in Sources */,
+				C0566F59185D9F6900915F12 /* mainPointDemo.cpp in Sources */,
 				C085D5A517F1734000596B63 /* Chapter7.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

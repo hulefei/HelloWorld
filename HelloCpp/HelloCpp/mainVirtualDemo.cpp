@@ -9,6 +9,7 @@
 #include "Circle.h"
 #include "SubCircle.h"
 
+/*
 int main() {
    Circle* circle = new Circle();
     circle->draw1();
@@ -20,4 +21,4 @@ int main() {
     
 //    SubCircle* subCircle = new SubCircle();
     
-}
+}*/
