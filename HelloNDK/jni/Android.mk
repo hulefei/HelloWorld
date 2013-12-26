@@ -16,7 +16,9 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE := cocos2dcpp_shared
+
 LOCAL_MODULE    := native
-LOCAL_SRC_FILES := myNative.c
+LOCAL_SRC_FILES := myNative.c 
 
 include $(BUILD_SHARED_LIBRARY)

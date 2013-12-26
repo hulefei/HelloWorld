@@ -24,6 +24,9 @@
 								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.91008346" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${NDK_ROOT}/platforms/android-14/arch-arm/usr/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${NDK_ROOT}/toolchains/llvm-3.2/prebuilt/darwin-x86_64/lib/clang/3.2/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NDK_ROOT}/sources/cxx-stl/gnu-libstdc++/4.6/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NDK_ROOT}/sources/cxx-stl/system/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NDK_ROOT}/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi-v7a/include&quot;"/>
 								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1379401431" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
