@@ -16,3 +16,11 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+/HelloNDK/bin/HelloNDK.apk
+/HelloNDK/bin/resources.ap_
+/HelloNDK/jni/myNative.c
+/HelloNDK/libs/armeabi/libnative.so
+/HelloNDK/obj/local/armeabi/libnative.so
+/HelloNDK/obj/local/armeabi/objs/native/myNative.o
+/HelloNDK/obj/local/armeabi/objs/native/myNative.o.d
