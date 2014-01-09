@@ -12,14 +12,14 @@
 using namespace std;
 
 
-int main() { 
+int main1() {
 
     int i = 42;
     int& r1 = i;
-    const int& r2 = i;
+//    const int& r2 = i;
     
     
-    cout << i << ":" << r1 << ":" << r2 << endl;
+    cout << i << ":" << r1 << ":"  << endl;
     
     return 0;
 }
