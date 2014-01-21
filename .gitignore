@@ -19,6 +19,6 @@ DerivedData
 
 /HelloNDK/bin/*
 /HelloNDK/libs/*
-/HelloNDK/obj/local/armeabi/libnative.so
+/HelloNDK/obj/local/armeabi/*
 /HelloNDK/obj/local/armeabi/objs/*
 
