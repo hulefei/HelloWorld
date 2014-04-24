@@ -21,15 +21,15 @@ public:
     
 };
 
-int main() {
-    
-    A *a = new A();
-//    A a;
-    cout << (*a).getValue() << endl;
-    
-    return 0;
-//    return EXIT_FAILURE;
-}
+//int main() {
+//    
+//    A *a = new A();
+////    A a;
+//    cout << (*a).getValue() << endl;
+//    
+//    return 0;
+////    return EXIT_FAILURE;
+//}
 
 //const string& manip() {
 //    return "hello";
