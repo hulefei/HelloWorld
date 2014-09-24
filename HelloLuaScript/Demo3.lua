@@ -39,5 +39,26 @@ function track(t)
 	setmetatable(proxy, mt)
 	return proxy
 end
---a = track(a)
---a[2] = 100
+a = {}
+a = track(a)
+a[2] = 100
+print(a[2])
+print()
+----------------------------------------------------------------------------------------
+function readOnly(t)
+	local proxy = {}
+	local mt = {
+		__index = t,
+		__newindex = function (t,k,v)
+			error("attempt to update a read-only table", 2)
+		end
+	}
+	setmetatable(proxy, mt)
+	return proxy
+end
+
+days = readOnly{"Sunday", "Monday"}
+print(days[1])
+days[2] = "aaaa"
+
+
